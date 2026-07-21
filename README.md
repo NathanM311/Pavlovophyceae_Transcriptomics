@@ -48,7 +48,6 @@ Before running the scripts, users must update the `BASE_DIR` and `SAMPLE_MAP` va
 ### Phase 4: Taxonomic Annotation & Decontamination
 * **`07a_taxonomic_assignment_blast.sh`**: Ribosomal contigs are taxonomically assigned against PR2 and SILVA databases, retaining only top hits with $\ge$ 90% identity and an alignment length of $\ge$ 200 bp.
 * **`07b_taxonomic_decontamination.sh`**: A custom filter systematically identifies and excludes sequences mapping to known laboratory contaminants (e.g., *Staphylococcus*, *Cutibacterium*, *Betula*, *Aspergillus*, and non-target metazoans).
-* **`07.5_taxonomic_unification.sh`**: Utility script to harmonize and merge taxonomic formats between PR2 (Organelles) and SILVA (Nuclear) for visualization.
 
 ### Phase 5: Visualization
 * **`08_taxonomic_profiling_krona.sh`**: Generates interactive HTML taxonomic profiles. To provide full transparency, the dashboard visualizes both the pre-filtering (raw) and post-decontamination (clean) datasets.

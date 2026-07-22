@@ -56,3 +56,6 @@ Before running the scripts, users must update the `BASE_DIR` and `SAMPLE_MAP` va
 
 ##  Data Availability
 Raw RNA-seq datasets generated in this study are available in the NCBI Sequence Read Archive (SRA) under BioProject **PRJNA1453970**.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21478498.svg)](https://doi.org/10.5281/zenodo.21478498)
+
